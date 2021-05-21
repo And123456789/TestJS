@@ -5,6 +5,6 @@ export function(getWeather){
    		return response.json();
 	})
 	.then((data) => {
-		return data;
+		return data.contents.quotes[0].quote;
 	});
 }
