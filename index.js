@@ -1,12 +1,14 @@
 import{getWeather} from 'fetchWeather.js';
-/*addListeners();
+addListeners();
 
 function addListeners(){
 	document.querySelector('button').addEventListener('click', quoteButtonClicked);
 }
 
 function quoteButtonClicked(){
+	getWeather();
 	insertParagraph('Life')
+	
 }
 
 function insertParagraph(text){
@@ -14,4 +16,4 @@ function insertParagraph(text){
 		p.innerText = text;
 	document.querySelector('body').appendChild(p);
 }
-*/
+
