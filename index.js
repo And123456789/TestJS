@@ -24,3 +24,4 @@ function getData(){
 });
 }
 alert(data);
+alert("hejsan");
