@@ -6,7 +6,7 @@ function addListeners(){
 }
 
 function quoteButtonClicked(){
-	insertParagraph(getWeather());
+	getWeather().then(insertParagraph);
 	
 }
 
