@@ -1,4 +1,3 @@
-alert("ok");
 import{getWeather} from 'fetchWeather.js';
 addListeners();
 
